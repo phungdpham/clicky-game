@@ -1,0 +1,32 @@
+.card {
+    background: #fff;
+    border-radius: 2px;
+    height: 200x;
+    width: 200px;
+    margin: 1rem;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  }
+  
+  .card > .img-container {
+    height: 100%;
+    overflow: hidden;
+    background:#6CADDC;
+  }
+  .card > .img-container > img {
+    width: 100%
+  }
+  
+  .card:hover {
+      box-shadow: 8px 8px 20px rgb(56, 56, 56);
+      transform: scale(1.1);
+      cursor: pointer;
+  }
+
+  .card:active {
+      transform: translate (1px, 1px);
+  }
+  
+
+  
